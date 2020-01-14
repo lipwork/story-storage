@@ -1,0 +1,702 @@
+<!--html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"> 
+<html>
+<meta charset="UTF-8"/>
+<meta name = "changePage" content="page3.html"/>
+<title>story&storage</title>
+<!-- <link href="https://fonts.googleapis.com/css?family=Cuprum|El+Messiri|Marmelad|Shrikhand|Syncopate|Tenor+Sans" rel="stylesheet"> -->
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
+
+<link href="css/style.css" rel="stylesheet" />
+
+<!-- Add fancyBox -->
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script> -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
+
+
+
+</head>
+
+<body>   
+<div class="header" id="myHeader">
+  <h2>Story and Storage</h2>
+  <div id="myBtnContainer">
+    <!-- <button class="btn active" onclick="filterSelection('all')"> All</button>
+    <button class="btn" onclick="filterSelection('interface')">Interface</button>
+    <button class="btn" onclick="filterSelection('intersection')">Intersection</button>
+    <button class="btn" onclick="filterSelection('time')">Time slice</button>
+    <button class="btn" onclick="filterSelection('transportation')">Transportation</button>
+    <button class="btn" onclick="filterSelection('icon')">Icon</button>
+    <button class="btn" onclick="filterSelection('activity')">activity</button> -->
+    <a href="#day1" class="btn active" >Day1</a>
+    <a href="#day2" class="btn" >Day2</a>
+    <a href="#day3" class="btn" >Day3</a>
+    <a href="#day4" class="btn" >Day4</a>
+    <a href="#day5" class="btn" >Day5</a>
+    <a href="#day6" class="btn" >Day6</a>
+    <a href="#day7" class="btn" >Day7</a>
+
+  </div>
+</div>
+<div class="content">
+  <img class="cover_image" src="Day2/timeB/station/P8190998.JPG">
+
+  
+
+  <div class="container">
+    <div class="filterDiv activity" id="day1">
+      <h3>Day1</h3>
+      <!-- <img src="Day1/bus_stop/P8180866.JPG" class="array_image">
+      <img src="Day1/bus_stop/P8180871.JPG" class="array_image">
+      <img src="Day1/underpass/P8180909.JPG" class="array_image">
+      <img src="Day1/underpass/P8180899.JPG" class="array_image">
+      <img src="Day1/underpass/P8180908.JPG" class="array_image">
+
+      <img src="Day1/station/P8180887.JPG" class="array_image">
+      <img src="Day1/station/P8180892.JPG" class="array_image">
+      <img src="Day1/bus_station/P8191008.JPG" class="array_image"> 
+      <img src="Day1/truck/P8180859.JPG" class="array_image">
+      <img src="Day1/station/P8180886.JPG" class="array_image">
+      <img src="Day1/grid/P8201050.JPG" class="array_image"> 
+      <img src="Day1/station/P8180888.JPG" class="array_image"> 
+      
+
+
+      <img src="Day1/perspective/P8191019.JPG" class="array_image">
+      <img src="Day1/perspective/P8201029.JPG" class="array_image">
+      <img src="Day1/perspective/P8201047.JPG" class="array_image">
+      <img src="Day1/perspective/P8201054.JPG" class="array_image">
+      <img src="Day1/perspective/P8180861.JPG" class="array_image">
+      <img src="Day1/station/P8180890.JPG" class="array_image">
+      <img src="Day1/station/P8180877.JPG" class="array_image">
+
+      <img src="Day1/green/P8180920.JPG" class="array_image">
+ 
+      <img src="Day1/green/P8180918.JPG" class="array_image">
+      <img src="Day1/green/P8180919.JPG" class="array_image">
+      <img src="Day1/green/P8190974.JPG" class="array_image">
+      <img src="Day1/green/P8190975.JPG" class="array_image"> -->
+
+
+
+     
+     
+      <img src="Day2/timeA/+bus station/P8190954.JPG" class="array_image">
+      <img src="Day2/timeB/+bus station/P8191006.JPG" class="array_image">
+      <img src="Day2/timeC/+bus station/P8201049.JPG" class="array_image">
+
+      <img src="Day2/timeA/station/P8190944.JPG" class="array_image">
+      <img src="Day2/timeB/station/P8190996.JPG" class="array_image">
+      <img src="Day2/timeC/station/P8201044.JPG" class="array_image">
+
+      <img src="Day2/timeA/station/P8190943.JPG" class="array_image">
+      <img src="Day2/timeB/station/P8190995.JPG" class="array_image">
+      <img src="Day2/timeC/station/P8201042.JPG" class="array_image">
+
+      <img src="Day2/timeA/station/P8190951.JPG" class="array_image">
+      <img src="Day2/timeB/station/P8191004.JPG" class="array_image">
+      <img src="Day2/timeC/station/P8201043.JPG" class="array_image">
+
+      <img src="Day2/timeA/bus_stop/P8190929.JPG" class="array_image">
+      <img src="Day2/timeB/bus_stop/P8190983.JPG" class="array_image">
+      <img src="Day2/timeC/bus_stop/P8201023.JPG" class="array_image">
+
+      <img src="Day2/timeA/bus_stop/P8190932.JPG" class="array_image">
+      <img src="Day2/timeB/bus_stop/P8190986.JPG" class="array_image">
+      <img src="Day2/timeC/bus_stop/P8201026.JPG" class="array_image">
+
+      <img src="Day2/timeA/bus_stop/P8190933.JPG" class="array_image">
+      <img src="Day2/timeB/bus_stop/P8190985.JPG" class="array_image">
+      <img src="Day2/timeC/bus_stop/P8201025.JPG" class="array_image">
+
+      <img src="Day2/timeA/bus_stop/P8190934.JPG" class="array_image">
+      <img src="Day2/timeB/bus_stop/P8190987.JPG" class="array_image">
+      <img src="Day2/timeC/bus_stop/P8201028.JPG" class="array_image">
+
+      <img src="Day2/timeA/square/P8190940.JPG" class="array_image">
+      <img src="Day2/timeB/square/P8190992.JPG" class="array_image">
+      <img src="Day2/timeC/square/P8201035.JPG" class="array_image">
+
+      <img src="Day2/timeA/square/P8190935.JPG" class="array_image">
+      <img src="Day2/timeB/square/P8190989.JPG" class="array_image">
+      <img src="Day2/timeC/square/P8201032.JPG" class="array_image">
+
+      <img src="Day2/timeA/square/P8190941.JPG" class="array_image">
+      <img src="Day2/timeB/square/P8190993.JPG" class="array_image">
+      <img src="Day2/timeC/square/P8201036.JPG" class="array_image">
+
+      <img src="Day2/timeA/square/P8190937.JPG" class="array_image">
+      <img src="Day2/timeB/square/P8190991.JPG" class="array_image">
+      <img src="Day2/timeC/square/P8201033.JPG" class="array_image">
+
+      
+      <img src="Day2/timeA/square/P8190938.JPG" class="array_image">
+      <img src="Day2/timeB/square/P8190990.JPG" class="array_image">
+      <img src="Day2/timeC/square/P8201030.JPG" class="array_image">
+      
+      <img src="Day2/timeA/supermarket/P8190924.JPG" class="array_image">
+      <img src="Day2/timeB/supermarket/P8201020.JPG" class="array_image">
+      <img src="Day2/timeC/supermarket/P8201058.JPG" class="array_image">
+
+      <img src="Day2/timeA/underpass/P8190962.JPG" class="array_image">
+      <img src="Day2/timeB/underpass/P8191015.JPG" class="array_image">
+      <img src="Day2/timeC/underpass/P8201045.JPG" class="array_image">
+
+      <img src="Day2/timeA/underpass/P8190960.JPG" class="array_image">
+      <img src="Day2/timeB/underpass/P8191013.JPG" class="array_image">
+      <img src="Day2/timeC/underpass/P8201046.JPG" class="array_image">
+
+      
+
+    </div>
+    <div class="filterDiv interface" id="day2">
+      <h3>Day2</h3>
+      <img src="Day3_ring/P8201064_.JPG" class="array_image">
+      <img src="Day3_ring/P8201068_.JPG" class="array_image">
+      <img src="Day3_ring/P8201074_.JPG" class="array_image">
+      <img src="Day3_ring/P8201078_.JPG" class="array_image">
+      <img src="Day3_ring/P8201081_.JPG" class="array_image">
+      <img src="Day3_ring/P8201083_.JPG" class="array_image">
+      <img src="Day3_ring/P8201085_.JPG" class="array_image">
+      <img src="Day3_ring/P8201086_.JPG" class="array_image">
+      <img src="Day3_ring/P8201088_.JPG" class="array_image">
+      <img src="Day3_ring/P8201089_.JPG" class="array_image">
+      <img src="Day3_ring/P8201092_.JPG" class="array_image">
+      <img src="Day3_ring/P8201099_.JPG" class="array_image">
+
+      <img src="Day3_ring/P8201105_.JPG" class="array_image">
+      <img src="Day3_ring/P8201113_.JPG" class="array_image">
+      <img src="Day3_ring/P8201118_.JPG" class="array_image">
+      <img src="Day3_ring/P8201122_.JPG" class="array_image">
+      <img src="Day3_ring/P8201126_.JPG" class="array_image">
+      <img src="Day3_ring/P8201127_.JPG" class="array_image">
+      <img src="Day3_ring/P8201129_.JPG" class="array_image">
+      <img src="Day3_ring/P8201137_.JPG" class="array_image">
+      <img src="Day3_ring/P8201138_.JPG" class="array_image">
+      <img src="Day3_ring/P8201143_.JPG" class="array_image">
+      <img src="Day3_ring/P8201144_.JPG" class="array_image">
+      <img src="Day3_ring/P8201150_.JPG" class="array_image">
+
+      <img src="Day3_ring/P8201152_.JPG" class="array_image">
+      <img src="Day3_ring/P8201154_.JPG" class="array_image">
+      <img src="Day3_ring/P8201158_.JPG" class="array_image">
+      <img src="Day3_ring/P8201160_.JPG" class="array_image">
+      <img src="Day3_ring/P8201161_.JPG" class="array_image">
+      <img src="Day3_ring/P8201165_.JPG" class="array_image">
+      <img src="Day3_ring/P8201168_.JPG" class="array_image">
+      <img src="Day3_ring/P8201173_.JPG" class="array_image">
+      <img src="Day3_ring/P8201175_.JPG" class="array_image">
+      <img src="Day3_ring/P8201178_.JPG" class="array_image">
+      <img src="Day3_ring/P8201179_.JPG" class="array_image">
+      <img src="Day3_ring/P8201184_.JPG" class="array_image">
+
+      <img src="Day3_ring/P8201190_.JPG" class="array_image">
+      <img src="Day3_ring/P8201191_.JPG" class="array_image">
+      <img src="Day3_ring/P8201195_.JPG" class="array_image">
+      <img src="Day3_ring/P8201198_.JPG" class="array_image">
+      <img src="Day3_ring/P8201199_.JPG" class="array_image">
+      <img src="Day3_ring/P8201202_.JPG" class="array_image">
+      <img src="Day3_ring/P8201207_.JPG" class="array_image">
+      <img src="Day3_ring/P8201209_.JPG" class="array_image">
+      <img src="Day3_ring/P8201215_.JPG" class="array_image">
+      <img src="Day3_ring/P8201220_.JPG" class="array_image">
+      <img src="Day3_ring/P8201224_.JPG" class="array_image">
+      <img src="Day3_ring/P8201230_.JPG" class="array_image">
+      <img src="Day3_ring/P8201233_.JPG" class="array_image">
+      <img src="Day3_ring/P8201239_.JPG" class="array_image">
+      <img src="Day3_ring/P8201243_.JPG" class="array_image">
+
+
+    </div>
+    <div class="filterDiv interface" id="day3">
+      <h3>Day3</h3>
+
+      <img src="Day4_balcony/2/P8211264.JPG" class="array_image_4">
+      <img src="Day4_balcony/2/P8211260.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/4/P8211271.JPG" class="array_image_4">
+      <img src="Day4_balcony/4/P8211272.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/5/P8211275.JPG" class="array_image_4">
+      <img src="Day4_balcony/5/P8211277.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/6/P8211282.JPG" class="array_image_4">
+      <img src="Day4_balcony/6/P8211281.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/7/P8211283.JPG" class="array_image_4">
+      <img src="Day4_balcony/7/P8211286.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/8/P8211290.JPG" class="array_image_4">
+      <img src="Day4_balcony/8/P8211291.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/9/P8211294.JPG" class="array_image_4">
+      <img src="Day4_balcony/9/P8211293.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/10/P8211300.JPG" class="array_image_4">
+      <img src="Day4_balcony/10/P8211296.JPG" class="array_image_4">
+      
+      <img src="Day4_balcony/11/P8211306.JPG" class="array_image_4">
+      <img src="Day4_balcony/11/P8211302.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/12/P8211314.JPG" class="array_image_4">
+      <img src="Day4_balcony/12/P8211313.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/13/P8211316.JPG" class="array_image_4">
+      <img src="Day4_balcony/13/P8211322.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/14/P8211325.JPG" class="array_image_4">
+      <img src="Day4_balcony/14/P8211326.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/15/P8211332.JPG" class="array_image_4">
+      <img src="Day4_balcony/15/P8211330.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/16/P8211337.JPG" class="array_image_4">
+      <img src="Day4_balcony/16/P8211335.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/17/P8211344.JPG" class="array_image_4">
+      <img src="Day4_balcony/17/P8211341.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/18/P8211350.JPG" class="array_image_4">
+      <img src="Day4_balcony/18/P8211348.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/19/P8211355.JPG" class="array_image_4">
+      <img src="Day4_balcony/19/P8211351.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/3/P8211266.JPG" class="array_image_4">
+      <img src="Day4_balcony/3/P8211268.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/20/P8211357.JPG" class="array_image_4">
+      <img src="Day4_balcony/20/P8211359.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/21/P8211361.JPG" class="array_image_4">
+      <img src="Day4_balcony/21/P8211356.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/23/P8211362.JPG" class="array_image_4">
+      <img src="Day4_balcony/23/P8211369.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/24/P8211367.JPG" class="array_image_4">
+      <img src="Day4_balcony/24/P8211365.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/25/P8211371.JPG" class="array_image_4">
+      <img src="Day4_balcony/25/P8211370.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/26/P8231393.JPG" class="array_image_4">
+      <img src="Day4_balcony/26/P8221391.JPG" class="array_image_4">
+
+      
+
+    </div>
+    <div class="filterDiv intersection" id="day4">
+      <h3>Day4</h3>
+      <img src="Day5_bus_top/front/P8221382.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8221392.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241395.JPG" class="array_image">
+
+      <img src="Day5_bus_top/front/P8241399.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241402.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241406.JPG" class="array_image">
+
+      <img src="Day5_bus_top/front/P8241410.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241417.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241421.JPG" class="array_image">
+
+      <img src="Day5_bus_top/front/P8241422.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241427.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241428.JPG" class="array_image">
+
+      <img src="Day5_bus_top/front/P8241429.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241434.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241437.JPG" class="array_image">
+
+      <img src="Day5_bus_top/front/P8241440.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241441.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241453.JPG" class="array_image">
+
+      <img src="Day5_bus_top/front/P8241457.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241466.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241467.JPG" class="array_image">
+
+      <img src="Day5_bus_top/front/P8241468.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241472.JPG" class="array_image">
+      <img src="Day5_bus_top/front/P8241486.JPG" class="array_image">
+      
+
+      <img src="Day5_bus_top/chair/P8241478.JPG" class="array_image">
+
+      <img src="Day5_bus_top/chair/P8241398.JPG" class="array_image">
+      <img src="Day5_bus_top/chair/P8241405.JPG" class="array_image">
+      <img src="Day5_bus_top/chair/P8241408.JPG" class="array_image">
+
+      <img src="Day5_bus_top/chair/P8241412.JPG" class="array_image">
+      <img src="Day5_bus_top/chair/P8241461.JPG" class="array_image">
+      <img src="Day5_bus_top/chair/P8241425.JPG" class="array_image">
+
+      <img src="Day5_bus_top/chair/P8241464.JPG" class="array_image">
+      <img src="Day5_bus_top/chair/P8241469.JPG" class="array_image">
+      <img src="Day5_bus_top/chair/P8241418.JPG" class="array_image">
+      
+      <img src="Day5_bus_top/chair/P8241411.JPG" class="array_image">
+      
+
+      <img src="Day5_bus_top/lateral/P8241432.JPG" class="array_image">
+      <img src="Day5_bus_top/lateral/P8241438.JPG" class="array_image">
+      <img src="Day5_bus_top/lateral/P8241442.JPG" class="array_image">
+
+      <img src="Day5_bus_top/lateral/P8241396.JPG" class="array_image">
+      <img src="Day5_bus_top/lateral/P8241400.JPG" class="array_image">
+      <img src="Day5_bus_top/lateral/P8241401.JPG" class="array_image">
+
+      <img src="Day5_bus_top/lateral/P8241416.JPG" class="array_image">
+      <img src="Day5_bus_top/lateral/P8241423.JPG" class="array_image">
+      <img src="Day5_bus_top/lateral/P8241460.JPG" class="array_image">
+
+      <img src="Day5_bus_top/lateral/P8241463.JPG" class="array_image">
+      <img src="Day5_bus_top/lateral/P8241471.JPG" class="array_image">
+      <img src="Day5_bus_top/lateral/P8241473.JPG" class="array_image">
+
+      <img src="Day5_bus_top/lateral/P8211379.JPG" class="array_image">
+
+
+    </div>
+    <div class="filterDiv icon" id="day5">
+      <h3>Day5</h3>
+      <img src="Day6/interface_bus stop/P8251640.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8251652.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8251649.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8251643.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8241480.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8241492.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8241484.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8241481.JPG" class="array_image_4">
+      
+      <img src="Day6/interface_bus stop/P8241496.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8241511.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8241507.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8241498.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8241516.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8241527.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8241526.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8241518.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8241532.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8241540.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8241546.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8241534.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8241551.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8241549.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8241555.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8241550.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8241563.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8241561.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8241569.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8241564.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8241583.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8241576.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8241573.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8241582.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8251596.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8251588.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8251585.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8251591.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8251610.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8251602.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8251599.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8251605.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8251623.JPG" class="array_image_4">
+      <img src="Day6/interface_square3/P8251615.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8251614.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8251618.JPG" class="array_image_4">
+
+      <img src="Day6/interface_bus stop/P8251639.JPG" class="array_image_4">  
+      <img src="Day6/interface_square3/P8251628.JPG" class="array_image_4">
+      <img src="Day6/bike1/P8251627.JPG" class="array_image_4">
+      <img src="Day6/walking_area1/P8251631.JPG" class="array_image_4">
+
+    </div>
+    <div class="filterDiv icon" id="day6">
+      <h3>Day6</h3>
+      <img src="Day6/station/P8251612.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8251616.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8251613.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8251622.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8251650.JPG" class="array_image_4">  
+      <img src="Day6/interface_square1/P8251653.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8251651.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8251647.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8241488.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8241493.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8241489.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8241483.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8241503.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8241512.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8241504.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8241501.JPG" class="array_image_4">
+      
+      <img src="Day6/station/P8241524.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8241528.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8241525.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8241521.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8241544.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8241541.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8241545.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8241539.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8241556.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8241547.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8241557.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8241553.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8241570.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8241559.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8241571.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8241566.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8241574.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8241577.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8241575.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8241581.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8251586.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8251589.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8251587.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8251595.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8251600.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8251603.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8251601.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8251607.JPG" class="array_image_4">
+
+      <img src="Day6/station/P8251625.JPG" class="array_image_4">
+      <img src="Day6/interface_square1/P8251629.JPG" class="array_image_4">
+      <img src="Day6/bike4/P8251626.JPG" class="array_image_4">
+      <img src="Day6/walking_area2/P8251636.JPG" class="array_image_4">
+
+      
+    </div>
+    <div class="filterDiv activity" id="day7">
+      <h3>Day7</h3>
+    
+      
+      <div class="title_image">
+        <img src="Day7/P8251666.JPG" class="overlap_image">
+        <img src="Day7/P8251667.JPG" class="overlap_image">
+        <img src="Day7/P8251668.JPG" class="overlap_image">
+        <img src="Day7/P8251669.JPG" class="overlap_image">
+        <img src="Day7/P8251670.JPG" class="overlap_image">
+        <img src="Day7/P8251671.JPG" class="overlap_image">
+        <img src="Day7/P8251672.JPG" class="overlap_image">
+        <img src="Day7/P8251673.JPG" class="overlap_image">
+        <img src="Day7/P8251674.JPG" class="overlap_image">
+        <img src="Day7/P8251675.JPG" class="overlap_image">
+        <img src="Day7/P8251676.JPG" class="overlap_image">
+        <img src="Day7/P8251677.JPG" class="overlap_image">
+
+        <img src="Day7/P8251678.JPG" class="overlap_image">
+        <img src="Day7/P8251679.JPG" class="overlap_image">
+        <img src="Day7/P8251680.JPG" class="overlap_image">
+        <img src="Day7/P8251681.JPG" class="overlap_image">
+        <img src="Day7/P8251682.JPG" class="overlap_image">
+        <img src="Day7/P8251683.JPG" class="overlap_image">
+        <img src="Day7/P8251684.JPG" class="overlap_image">
+        <img src="Day7/P8251685.JPG" class="overlap_image">
+        <img src="Day7/P8251686.JPG" class="overlap_image">
+        <img src="Day7/P8251687.JPG" class="overlap_image">
+        <img src="Day7/P8251688.JPG" class="overlap_image">
+        <img src="Day7/P8251689.JPG" class="overlap_image">
+
+        <img src="Day7/P8251690.JPG" class="overlap_image">
+        <img src="Day7/P8251692.JPG" class="overlap_image">
+        <img src="Day7/P8251693.JPG" class="overlap_image">
+        <img src="Day7/P8251694.JPG" class="overlap_image">
+        <img src="Day7/P8251695.JPG" class="overlap_image">
+        <img src="Day7/P8251696.JPG" class="overlap_image">
+        <img src="Day7/P8251697.JPG" class="overlap_image">
+        <img src="Day7/P8251698.JPG" class="overlap_image">
+        <img src="Day7/P8251699.JPG" class="overlap_image">
+        <img src="Day7/P8251700.JPG" class="overlap_image">
+        <img src="Day7/P8251701.JPG" class="overlap_image">
+        <img src="Day7/P8251702.JPG" class="overlap_image">
+
+        <img src="Day7/P8251703.JPG" class="overlap_image">
+        <img src="Day7/P8251704.JPG" class="overlap_image">
+        <img src="Day7/P8251705.JPG" class="overlap_image">
+        <img src="Day7/P8251706.JPG" class="overlap_image">
+        <img src="Day7/P8251707.JPG" class="overlap_image">
+        <img src="Day7/P8251708.JPG" class="overlap_image">
+        <img src="Day7/P8251709.JPG" class="overlap_image">
+        <img src="Day7/P8251710.JPG" class="overlap_image">
+        <img src="Day7/P8251711.JPG" class="overlap_image">
+        <img src="Day7/P8251712.JPG" class="overlap_image">
+        <img src="Day7/P8251713.JPG" class="overlap_image">
+        <img src="Day7/P8251714.JPG" class="overlap_image">
+      </div> <!-- title_image -->
+
+      <img src="Day7/P8251666.JPG" class="array_image_4">
+      <img src="Day7/P8251667.JPG" class="array_image_4">
+      <img src="Day7/P8251668.JPG" class="array_image_4">
+      <img src="Day7/P8251669.JPG" class="array_image_4">
+      <img src="Day7/P8251670.JPG" class="array_image_4">
+      <img src="Day7/P8251671.JPG" class="array_image_4">
+      <img src="Day7/P8251672.JPG" class="array_image_4">
+      <img src="Day7/P8251673.JPG" class="array_image_4">
+      <img src="Day7/P8251674.JPG" class="array_image_4">
+      <img src="Day7/P8251675.JPG" class="array_image_4">
+      <img src="Day7/P8251676.JPG" class="array_image_4">
+      <img src="Day7/P8251677.JPG" class="array_image_4">
+
+      <img src="Day7/P8251678.JPG" class="array_image_4">
+      <img src="Day7/P8251679.JPG" class="array_image_4">
+      <img src="Day7/P8251680.JPG" class="array_image_4">
+      <img src="Day7/P8251681.JPG" class="array_image_4">
+      <img src="Day7/P8251682.JPG" class="array_image_4">
+      <img src="Day7/P8251683.JPG" class="array_image_4">
+      <img src="Day7/P8251684.JPG" class="array_image_4">
+      <img src="Day7/P8251685.JPG" class="array_image_4">
+      <img src="Day7/P8251686.JPG" class="array_image_4">
+      <img src="Day7/P8251687.JPG" class="array_image_4">
+      <img src="Day7/P8251688.JPG" class="array_image_4">
+      <img src="Day7/P8251689.JPG" class="array_image_4">
+
+      <img src="Day7/P8251690.JPG" class="array_image_4">
+      <img src="Day7/P8251692.JPG" class="array_image_4">
+      <img src="Day7/P8251693.JPG" class="array_image_4">
+      <img src="Day7/P8251694.JPG" class="array_image_4">
+      <img src="Day7/P8251695.JPG" class="array_image_4">
+      <img src="Day7/P8251696.JPG" class="array_image_4">
+      <img src="Day7/P8251697.JPG" class="array_image_4">
+      <img src="Day7/P8251698.JPG" class="array_image_4">
+      <img src="Day7/P8251699.JPG" class="array_image_4">
+      <img src="Day7/P8251700.JPG" class="array_image_4">
+      <img src="Day7/P8251701.JPG" class="array_image_4">
+      <img src="Day7/P8251702.JPG" class="array_image_4">
+
+      <img src="Day7/P8251703.JPG" class="array_image_4">
+      <img src="Day7/P8251704.JPG" class="array_image_4">
+      <img src="Day7/P8251705.JPG" class="array_image_4">
+      <img src="Day7/P8251706.JPG" class="array_image_4">
+      <img src="Day7/P8251707.JPG" class="array_image_4">
+      <img src="Day7/P8251708.JPG" class="array_image_4">
+      <img src="Day7/P8251709.JPG" class="array_image_4">
+      <img src="Day7/P8251710.JPG" class="array_image_4">
+      <img src="Day7/P8251711.JPG" class="array_image_4">
+      <img src="Day7/P8251712.JPG" class="array_image_4">
+      <img src="Day7/P8251713.JPG" class="array_image_4">
+      <img src="Day7/P8251714.JPG" class="array_image_4">
+
+    </div><!-- filterDiv -->
+  <!-- <div class="filterDiv animals">Day8</div>
+  <div class="filterDiv fruits">Day9</div>
+  <div class="filterDiv fruits animals">Day10</div>
+  <div class="filterDiv fruits">Day11</div>
+  <div class="filterDiv fruits">Lemon</div>
+  <div class="filterDiv animals">Cow</div> -->
+  </div><!-- container -->
+</div>  <!-- content -->
+<footer><h5>Tzu Yen Chen</h5></footer>
+</body>
+    
+<script type="text/javascript">
+// $(document).ready(function(){
+//   $('.bxslider').bxSlider({
+//           auto: true,
+//           autoControls: true
+//         });
+//   $(".fancybox").fancybox();
+// });
+
+
+// </script>
+<script>
+jQuery.noConflict(); 
+(function($) { 
+
+$(document).on("scroll", onScroll);
+
+function onScroll(event){
+      var scrollPos = $(document).scrollTop();
+      $('.btn').each(function () {
+          var currLink = $(this);
+          var refElement = $(currLink.attr("href"));
+          if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+              $('.btn').removeClass("active");
+              currLink.addClass("active");
+          }
+          else{
+              currLink.removeClass("active");
+          }
+      });
+  }
+
+// Add active class to the current button (highlight it)
+// var btnContainer = document.getElementById("myBtnContainer");
+// var btns = btnContainer.getElementsByClassName("btn");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function(){
+//     var current = document.getElementsByClassName("active");
+//     current[0].className = current[0].className.replace(" active", "");
+//     this.className += " active";
+//   });
+// }
+
+window.onscroll = function() {myFunction()};
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    header.classList.remove("header");
+    // document.getElementById("header").style.fontSize = "30px";
+  } else {
+    header.classList.add("header");
+    header.classList.remove("sticky");
+    
+  }
+}
+
+})( jQuery );
+</script>
+<script type="text/javascript">
+  $(document).on('click', 'a[href^="#"]', function(e) {
+    // target element id
+    var id = $(this).attr('href');
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+    // top position relative to the document
+    var pos = $(id).offset().top;
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos});
+});
+</script>
+</html>
