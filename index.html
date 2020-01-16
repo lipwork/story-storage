@@ -10,23 +10,7 @@
 
 <link href="css/style.css" rel="stylesheet" />
 
-<!-- Add fancyBox -->
-<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script> -->
-<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-<!-- Optionally add helpers - button, thumbnail and/or media -->
-<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
-<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
-
-<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
-
-
 
 
 </head>
@@ -35,7 +19,13 @@
 <div class="header" id="myHeader">
   <h2>Story and Storage</h2>
   <div id="myBtnContainer">
-   
+    <!-- <button class="btn active" onclick="filterSelection('all')"> All</button>
+    <button class="btn" onclick="filterSelection('interface')">Interface</button>
+    <button class="btn" onclick="filterSelection('intersection')">Intersection</button>
+    <button class="btn" onclick="filterSelection('time')">Time slice</button>
+    <button class="btn" onclick="filterSelection('transportation')">Transportation</button>
+    <button class="btn" onclick="filterSelection('icon')">Icon</button>
+    <button class="btn" onclick="filterSelection('activity')">activity</button> -->
     <a href="#day1" class="btn active" >Day1</a>
     <a href="#day2" class="btn" >Day2</a>
     <a href="#day3" class="btn" >Day3</a>
@@ -54,7 +44,41 @@
   <div class="container">
     <div class="filterDiv activity" id="day1">
       <h3>Day1</h3>
-  
+      <!-- <img src="Day1/bus_stop/P8180866.JPG" class="array_image">
+      <img src="Day1/bus_stop/P8180871.JPG" class="array_image">
+      <img src="Day1/underpass/P8180909.JPG" class="array_image">
+      <img src="Day1/underpass/P8180899.JPG" class="array_image">
+      <img src="Day1/underpass/P8180908.JPG" class="array_image">
+
+      <img src="Day1/station/P8180887.JPG" class="array_image">
+      <img src="Day1/station/P8180892.JPG" class="array_image">
+      <img src="Day1/bus_station/P8191008.JPG" class="array_image"> 
+      <img src="Day1/truck/P8180859.JPG" class="array_image">
+      <img src="Day1/station/P8180886.JPG" class="array_image">
+      <img src="Day1/grid/P8201050.JPG" class="array_image"> 
+      <img src="Day1/station/P8180888.JPG" class="array_image"> 
+      
+
+
+      <img src="Day1/perspective/P8191019.JPG" class="array_image">
+      <img src="Day1/perspective/P8201029.JPG" class="array_image">
+      <img src="Day1/perspective/P8201047.JPG" class="array_image">
+      <img src="Day1/perspective/P8201054.JPG" class="array_image">
+      <img src="Day1/perspective/P8180861.JPG" class="array_image">
+      <img src="Day1/station/P8180890.JPG" class="array_image">
+      <img src="Day1/station/P8180877.JPG" class="array_image">
+
+      <img src="Day1/green/P8180920.JPG" class="array_image">
+ 
+      <img src="Day1/green/P8180918.JPG" class="array_image">
+      <img src="Day1/green/P8180919.JPG" class="array_image">
+      <img src="Day1/green/P8190974.JPG" class="array_image">
+      <img src="Day1/green/P8190975.JPG" class="array_image"> -->
+
+
+
+     
+     
       <img src="Day2/timeA/+bus station/P8190954.JPG" class="array_image">
       <img src="Day2/timeB/+bus station/P8191006.JPG" class="array_image">
       <img src="Day2/timeC/+bus station/P8201049.JPG" class="array_image">
@@ -585,7 +609,17 @@
 <footer><h5>Tzu Yen Chen</h5></footer>
 </body>
     
+<script type="text/javascript">
+// $(document).ready(function(){
+//   $('.bxslider').bxSlider({
+//           auto: true,
+//           autoControls: true
+//         });
+//   $(".fancybox").fancybox();
+// });
 
+
+// </script>
 <script>
 jQuery.noConflict(); 
 (function($) { 
@@ -661,5 +695,7 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 
 })( jQuery );
 </script>
-
+<script type="text/javascript">
+  
+</script>
 </html>
