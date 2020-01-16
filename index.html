@@ -165,6 +165,8 @@
     </div>
     <div class="filterDiv interface" id="day2">
       <h3>Day2</h3>
+      
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1JYdlPXcqGfOXXoljCH96TGXNPF7JZDm6" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
       <img src="Day3_ring/P8201064_.JPG" class="array_image">
       <img src="Day3_ring/P8201068_.JPG" class="array_image">
       <img src="Day3_ring/P8201074_.JPG" class="array_image">
@@ -224,9 +226,14 @@
     </div>
     <div class="filterDiv interface" id="day3">
       <h3>Day3</h3>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dO6xSnHqFjX0wlrJr7USrTA4iZPTZ9uj" frameborder="0" style="border:0;"></iframe>
+      
 
       <img src="Day4_balcony/2/P8211264.JPG" class="array_image_4">
       <img src="Day4_balcony/2/P8211260.JPG" class="array_image_4">
+
+      <img src="Day4_balcony/3/P8211266.JPG" class="array_image_4">
+      <img src="Day4_balcony/3/P8211268.JPG" class="array_image_4">
 
       <img src="Day4_balcony/4/P8211271.JPG" class="array_image_4">
       <img src="Day4_balcony/4/P8211272.JPG" class="array_image_4">
@@ -276,9 +283,6 @@
       <img src="Day4_balcony/19/P8211355.JPG" class="array_image_4">
       <img src="Day4_balcony/19/P8211351.JPG" class="array_image_4">
 
-      <img src="Day4_balcony/3/P8211266.JPG" class="array_image_4">
-      <img src="Day4_balcony/3/P8211268.JPG" class="array_image_4">
-
       <img src="Day4_balcony/20/P8211357.JPG" class="array_image_4">
       <img src="Day4_balcony/20/P8211359.JPG" class="array_image_4">
 
@@ -302,6 +306,7 @@
     </div>
     <div class="filterDiv intersection" id="day4">
       <h3>Day4</h3>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1OnTIekbfRoa8Vd-WUiRjV1tzSMudMa5L" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
       <img src="Day5_bus_top/front/P8221382.JPG" class="array_image">
       <img src="Day5_bus_top/front/P8221392.JPG" class="array_image">
       <img src="Day5_bus_top/front/P8241395.JPG" class="array_image">
@@ -636,6 +641,8 @@
 jQuery.noConflict(); 
 (function($) { 
 
+
+// scroll change color
 $(document).on("scroll", onScroll);
 
 function onScroll(event){
@@ -664,6 +671,8 @@ function onScroll(event){
 //   });
 // }
 
+
+//scroll header shrink
 window.onscroll = function() {myFunction()};
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
@@ -680,10 +689,9 @@ function myFunction() {
   }
 }
 
-})( jQuery );
-</script>
-<script type="text/javascript">
-  $(document).on('click', 'a[href^="#"]', function(e) {
+
+// scroll滑動
+$(document).on('click', 'a[href^="#"]', function(e) {
     // target element id
     var id = $(this).attr('href');
     // target element
@@ -698,5 +706,13 @@ function myFunction() {
     // animated top scrolling
     $('body, html').animate({scrollTop: pos});
 });
+
+
+
+
+})( jQuery );
+</script>
+<script type="text/javascript">
+  
 </script>
 </html>
